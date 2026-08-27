@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Velocity X">
+  <title>Velocity X</title>
+
+  <defs>
+    <linearGradient id="vx-neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ff"/>
+      <stop offset="100%" stop-color="#0ea5c9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark rounded plate -->
+  <rect width="64" height="64" rx="14" fill="#070b14"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#22d3ff" stroke-opacity="0.28" stroke-width="2"/>
+
+  <!-- V -->
+  <path d="M13 18 L24 42 L30 30 L26.4 30 L24 35.2 L18.2 18 Z" fill="url(#vx-neon)"/>
+
+  <!-- X -->
+  <path d="M32 18 L38.4 27.6 L44.8 18 L51 18 L41.6 31.6 L51 46 L44.6 46 L38.4 35.8 L32.2 46 L26 46 L35.2 31.6 L26 18 Z" fill="url(#vx-neon)"/>
+
+  <!-- Speed underline -->
+  <rect x="13" y="50" width="38" height="2.5" rx="1.25" fill="#22d3ff"/>
+  <rect x="13" y="50" width="14" height="2.5" rx="1.25" fill="#eafaff"/>
+</svg>
