@@ -1,0 +1,35 @@
+{
+  "name": "Velocity X",
+  "short_name": "VelocityX",
+  "description": "Velocity X — a futuristic racing showcase featuring hypercars, prototypes and live driver standings.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#22d3ff",
+  "background_color": "#070b14",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["entertainment", "games", "lifestyle"],
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
