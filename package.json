@@ -1,22 +1,16 @@
 {
-  "name": "velocity-x",
-  "version": "2.4.0",
-  "description": "Next-Gen Neon Street Racing Website & 3D WebGL Engine",
-  "main": "assets/js/main.js",
-  "type": "module",
+  "name": "login-fake-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "npx serve .",
-    "dev": "npx serve .",
-    "build": "echo 'Production build ready. No compilation required for static JS ES Modules.'",
-    "test": "echo 'Testing complete: zero console errors, all modules loaded.'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "velocity-x",
-    "racing",
-    "threejs",
-    "webgl",
-    "game"
-  ],
-  "author": "Nova Interactive Studios",
-  "license": "MIT"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
